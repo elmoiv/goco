@@ -1,5 +1,5 @@
 # Goco
-[![Build Status](https://api.travis-ci.org/elmoiv/goco.svg?branch=master)
+[![Build Status](https://api.travis-ci.org/elmoiv/goco.svg?branch=master)]
 
 Connecting to Google apis has never been easier!
 
