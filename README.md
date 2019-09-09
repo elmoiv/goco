@@ -1,5 +1,6 @@
 # Goco
 [![Build Status](https://api.travis-ci.org/elmoiv/goco.svg?branch=master)](https://travis-ci.org/elmoiv/goco)
+[![Python version](https://img.shields.io/badge/python-3.x-brightgreen.svg)](https://pypi.org/project/goco/)
 
 Connecting to Google apis has never been easier!
 
