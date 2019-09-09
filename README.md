@@ -1,5 +1,5 @@
 # Goco
-[![Build Status](https://img.shields.io/travis/jacebrowning/template-python/master.svg)](https://travis-ci.org/jacebrowning/template-python)
+[![Build Status](https://api.travis-ci.org/elmoiv/goco.svg?branch=master)
 
 Connecting to Google apis has never been easier!
 
