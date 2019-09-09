@@ -1,8 +1,8 @@
 # Goco
+[![Build Status](https://img.shields.io/travis/jacebrowning/template-python/master.svg)](https://travis-ci.org/jacebrowning/template-python)
 
 Connecting to Google apis has never been easier!
 
-[![Build Status](https://img.shields.io/travis/jacebrowning/template-python/master.svg)](https://travis-ci.org/jacebrowning/template-python)
 
 ## Features
 
