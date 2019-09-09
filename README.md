@@ -13,8 +13,8 @@ Connecting to Google apis has never been easier!
 
 Here are a few sample tests:
 
-* [Blogger Test](https://github.com/elmoiv/goco/tree/master/tests/test1)
-* [Drive Test](https://github.com/elmoiv/goco/tree/master/tests/test2)
+* [Blogger Test](https://github.com/elmoiv/goco/tree/master/tests/test2.py)
+* [Drive Test](https://github.com/elmoiv/goco/tree/master/tests/test1.py)
 
 ## Usage
 
