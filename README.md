@@ -24,7 +24,7 @@ pip install git+https://github.com/elmoiv/goco.git
 ```
 
 ## Usage
-Import the package and search for songs by a given artist:
+Using goco to connect to blogger:
 
 ```python
 # Blogger example
