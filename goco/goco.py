@@ -65,7 +65,7 @@ class Goco:
 
         # Token expiry is in RFC 3339 date-time format
         # YYYY-MM-DDTHH:MM:SSZ
-        token_expiry = f'{date[0]}T{date[1][:8]}Z'
+        token_expiry = '{}T{}Z'.format(date[0], date[1][:8])
 
         creds["token_expiry"] = token_expiry
         creds["access_token"] = access_token
