@@ -16,18 +16,19 @@ Here are a few sample tests:
 * [Blogger Test](https://github.com/elmoiv/goco/tree/master/tests/test2.py)
 * [Drive Test](https://github.com/elmoiv/goco/tree/master/tests/test1.py)
 
-## Usage
+## Installation
+`goco` requires Python 3.
 
+Use `pip` to install the package from PyPI:
 
-* Linux
-
-```
-$ pip install goco
-```
-* Windows
-
-```
+```bash
 pip install goco
+```
+
+Or, install the latest version of the package from GitHub:
+
+```bash
+pip install git+https://github.com/elmoiv/goco.git
 ```
 
 ## Dependancies
