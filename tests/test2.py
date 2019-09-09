@@ -1,4 +1,4 @@
-import goco
+from goco import Goco
 
 GoogleApi = goco.Goco('client_secret.json', 'credentials.storage')
 
