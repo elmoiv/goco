@@ -32,6 +32,5 @@ Or, install the latest version of the package from GitHub:
 pip install git+https://github.com/elmoiv/goco.git
 ```
 
-## Updates
-
-Checkout the appropriate branch of [goco](https://github.com/elmoiv/goco) and manually merge changes into your project.
+## Contributing
+Please contribute! If you want to fix a bug, suggest improvements, or add new features to the project, just [open an issue](https://github.com/elmoiv/goco/issues) or send me a pull request.
