@@ -31,14 +31,6 @@ Or, install the latest version of the package from GitHub:
 pip install git+https://github.com/elmoiv/goco.git
 ```
 
-## Dependancies
-
-You need to check if these libraries are installed on your machine:
-
-* [httplib2](https://github.com/httplib2/httplib2)
-* [oauth2client](https://github.com/googleapis/oauth2client)
-* [apiclient](https://github.com/shazow/apiclient)
-
 ## Updates
 
 Checkout the appropriate branch of [goco](https://github.com/elmoiv/goco) and manually merge changes into your project.
