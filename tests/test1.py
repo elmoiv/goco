@@ -1,6 +1,6 @@
-import goco
+from goco import Goco
 
-GoogleApi = goco.Goco('client_secret.json', 'credentials.storage')
+GoogleApi = Goco('client_secret.json', 'credentials.storage')
 
 MyDrive = GoogleApi.connect(scope='drive.readonly', service_name='drive', version='v3')
 
