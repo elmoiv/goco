@@ -1,6 +1,6 @@
 from goco import Goco
 
-GoogleApi = goco.Goco('client_secret.json', 'credentials.storage')
+GoogleApi = Goco('client_secret.json')
 
 MyBlog = GoogleApi.connect(scope='Blogger', service_name='blogger', version='v3')
 
