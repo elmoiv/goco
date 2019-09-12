@@ -26,6 +26,7 @@ class Goco:
             flow = flow_from_clientsecrets(self.csecp, scope='https://www.googleapis.com/auth/' + scope)
             http = httplib2.Http()
             credentials = run_flow(flow, STORAGE, http=http)
+            self.csrgp = '{}\\credentials.storage'.format(self.csrgp)
 
         return credentials
 
