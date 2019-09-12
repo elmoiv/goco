@@ -30,7 +30,7 @@ Using goco to connect to blogger::
 # Blogger example
 from goco import Goco
 
-GoogleApi = Goco("path\\to\\client_secret.json", "path\\to\\credentials.storage")
+GoogleApi = Goco("path\\to\\client_secret.json")
 
 MyBlog = GoogleApi.connect(scope='Blogger', service_name='blogger', version='v3')
 
