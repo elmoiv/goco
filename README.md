@@ -1,6 +1,7 @@
 # Goco
 [![Build Status](https://api.travis-ci.org/elmoiv/goco.svg?branch=master)](https://travis-ci.org/elmoiv/goco)
 [![Python version](https://img.shields.io/badge/python-3.x-brightgreen.svg)](https://pypi.org/project/goco/)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/de01a9d32ee847729c5eaf78027eb5c0)](https://www.codacy.com/manual/elmoiv/goco?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=elmoiv/goco&amp;utm_campaign=Badge_Grade)
 
 Connecting to Google apis has never been easier!
 
