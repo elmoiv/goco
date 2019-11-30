@@ -75,7 +75,6 @@ class Goco:
 
         return Storage(self.csrgp).get()
 
-
     def connect(self, scope, service_name, version):
         # Checks for "credentials.storage" and generates one if not found
         self.authorize_credentials(scope)
