@@ -17,7 +17,6 @@ class Goco:
     
     '''
     def __init__(self, client_secret_path):
-
         self.csecp = client_secret_path
         self.csrgp = 'credentials.storage'
 
@@ -25,7 +24,6 @@ class Goco:
             raise FileNotFoundError('client_secret.json')
 
     def authorize_credentials(self, scope):
-
         STORAGE = Storage(self.csrgp)
         credentials = STORAGE.get()
 
@@ -37,7 +35,6 @@ class Goco:
         return credentials
 
     def refresh_access_token(self):
-
         data = json.loads(open(self.csecp).read())['installed']
 
         client_id = data['client_id']
@@ -65,7 +62,6 @@ class Goco:
         return response['access_token']
 
     def update_credentials(self, access_token):
-
         creds = json.loads(open(self.csrgp).read())
 
         date = str(datetime.datetime.now()).split(' ')
@@ -85,7 +81,6 @@ class Goco:
 
 
     def connect(self, scope, service_name, version):
-
         # Checks for "credentials.storage" and generates one if not found
         self.authorize_credentials(scope)
 
