@@ -82,7 +82,6 @@ class Goco:
         
         # Connecting to chosen google service
         http_auth = cerds.authorize(httplib2.Http())
-        
         service = discovery.build(service_name,
                                   version,
                                   http=http_auth)
