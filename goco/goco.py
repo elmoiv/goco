@@ -7,15 +7,12 @@ from oauth2client.tools import run_flow
 from googleapiclient import discovery
 
 class Goco:
-    '''
-    # [Goco](https://github.com/elmoiv/goco):
+    '''# [Goco](https://github.com/elmoiv/goco):
 
     ### Stupidly user-friendly Google API services Authenticator
 
-    - `client_secret_path`:  Path to your `client_secret.json` file
+    - `client_secret_path`:  Path to your `client_secret.json` file'''
     
-    
-    '''
     def __init__(self, client_secret_path):
         self.csecp = client_secret_path
         self.csrgp = 'credentials.storage'
