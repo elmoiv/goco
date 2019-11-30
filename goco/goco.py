@@ -1,7 +1,6 @@
 import requests, json, httplib2, datetime, os
 
 from urllib.parse import urlencode
-from urllib.request import urlopen
 from oauth2client.client import flow_from_clientsecrets
 from oauth2client.file import Storage
 from oauth2client.tools import run_flow
