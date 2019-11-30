@@ -18,7 +18,7 @@ class Goco:
         self.csrgp = 'credentials.storage'
 
         if not os.path.exists(self.csecp):
-            raise FileNotFoundError('client_secret.json')
+            raise Exception('client_secret.json is not found!')
 
     def authorize_credentials(self, scope):
         STORAGE = Storage(self.csrgp)
